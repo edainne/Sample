@@ -13,6 +13,8 @@
 		B0F7E94F163FCD50005382F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0F7E94D163FCD50005382F9 /* InfoPlist.strings */; };
 		B0F7E951163FCD50005382F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F7E950163FCD50005382F9 /* main.m */; };
 		B0F7E955163FCD50005382F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F7E954163FCD50005382F9 /* AppDelegate.m */; };
+		B0F7E95E163FCDBE005382F9 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F7E95C163FCDBE005382F9 /* SampleViewController.m */; };
+		B0F7E95F163FCDBE005382F9 /* SampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0F7E95D163FCDBE005382F9 /* SampleViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		B0F7E952163FCD50005382F9 /* Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sample-Prefix.pch"; sourceTree = "<group>"; };
 		B0F7E953163FCD50005382F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B0F7E954163FCD50005382F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0F7E95B163FCDBE005382F9 /* SampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
+		B0F7E95C163FCDBE005382F9 /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
+		B0F7E95D163FCDBE005382F9 /* SampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +50,9 @@
 		B0F7E935163FCD50005382F9 = {
 			isa = PBXGroup;
 			children = (
+				B0F7E95B163FCDBE005382F9 /* SampleViewController.h */,
+				B0F7E95C163FCDBE005382F9 /* SampleViewController.m */,
+				B0F7E95D163FCDBE005382F9 /* SampleViewController.xib */,
 				B0F7E94A163FCD50005382F9 /* Sample */,
 				B0F7E943163FCD50005382F9 /* Frameworks */,
 				B0F7E941163FCD50005382F9 /* Products */,
@@ -142,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0F7E94F163FCD50005382F9 /* InfoPlist.strings in Resources */,
+				B0F7E95F163FCDBE005382F9 /* SampleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +163,7 @@
 			files = (
 				B0F7E951163FCD50005382F9 /* main.m in Sources */,
 				B0F7E955163FCD50005382F9 /* AppDelegate.m in Sources */,
+				B0F7E95E163FCDBE005382F9 /* SampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
